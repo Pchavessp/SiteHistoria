@@ -1,0 +1,103 @@
+body {
+    background-color: #d9c5ad;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'League spartan';
+}
+
+@font-face {
+    font-family: 'League spartan';
+    src: url('../fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format(ttf);
+}
+
+header {
+    background-color: #40382e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+header a {
+    color: #d9c5ad;
+    font-family: 'League spartan';
+    padding: 20px;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(../imagens/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    color: #d9c5ad;
+}
+
+.introducao h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.introducao p {
+    text-align: justify;
+    width: 90%;
+    font-size: 2.5vw;
+    margin: 0 auto;
+}
+
+.linhatempo {
+    position: relative;
+    margin: 20px auto;
+    width: 80%; 
+}
+
+.linhatempo h2{
+    color: #40382e;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.linhatempo p{
+    text-align: center;
+    font-size: 2vw;
+    color: #40382e;
+    margin-bottom: 10px;
+}
+
+.linhatempo::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #40382e;
+    z-index: 0;
+    margin-top: 90px;
+}
+
+.linhatempo a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none; 
+    color: #d9c5ad;
+    margin: 0 20px; 
+    font-size: 16px;
+    background-color: #40382e;
+    padding: 5px 18px; 
+    border-radius: 5px;
+    z-index: 1;
+    align-content: center;
+    
+}
+
+.linhatempo a:hover {
+    background-color: d9c5ad;
+    color: #40382e; 
+}

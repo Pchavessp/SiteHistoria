@@ -1,0 +1,265 @@
+body {
+    background-color: #d9c5ad;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'League spartan';
+}
+
+@font-face {
+    font-family: 'League spartan';
+    src: url('../fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format(ttf);
+}
+
+header {
+    background-color: #40382e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+header a {
+    color: #d9c5ad;
+    font-family: 'League spartan';
+    padding: 20px;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(../imagens/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    color: #d9c5ad;
+}
+
+.introducao h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.introducao p {
+    text-align: justify;
+    width: 90%;
+    font-size: 2.5vw;
+    margin: 0 auto;
+}
+
+.linhatempo {
+    position: relative;
+    margin: 25px auto;
+    width: 80%;
+}
+
+.linhatempo h2 {
+    color: #40382e;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.linhatempo p {
+    text-align: center;
+    font-size: 2.5vw;
+    color: #40382e;
+    margin-bottom: 12vh;
+}
+
+.linhatempo a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #d9c5ad;
+    margin: 0 22px;
+    margin-bottom: 80px;
+    font-size: 2vw;
+    background-color: #40382e;
+    border-radius: 5px;
+    z-index: 1;
+    width: 6.5vw;
+    height: 5.5vh;
+}
+
+.linhatempo a:hover {
+    background-color: #d9c5ad;
+    color: #40382e;
+}
+
+.dec1850{
+    background-image: url(../imagens/fundobandeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #eeddc9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dec1850 h1{
+
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 25px;
+}
+
+.dec1850 p{
+    text-align: justify;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 2vw;
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    background-color: #40382e;
+    color: #d9c5ad;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40vh;
+    width: 18%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 15vh;
+}
+
+.card h2{
+    text-align: justify;
+    margin-bottom: 0;   
+}
+
+.card p{
+    text-align: justify;
+    margin: 0;
+}
+
+.card a{
+    background-color: #595142;
+    border-radius: 5px;
+    width: 7vw;
+    height: 6vh;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #d9c5ad;
+    text-decoration: none;
+}
+
+#leideterras {
+    display: flex;
+    margin-bottom: 15vh;
+}
+
+#leideterras p{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    margin:0 30px;
+    font-size: 1.8vw;
+}
+
+#leideterras img{
+    width: 42vw;
+    height: auto;
+}
+
+#leieusebio {
+    display: flex;
+    margin-bottom: 15vh;
+}
+
+#leieusebio p{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    margin:0 30px;
+    font-size: 1.8vw;
+}
+
+#leieusebio img{
+    width: 42vw;
+    height: auto;
+}
+
+#guerradaprata {
+    display: flex;
+    margin-bottom: 15vh;
+}
+
+#guerradaprata p{
+    width: 60%;
+    display: flex;
+    text-align: justify;
+    margin:0 30px;
+    font-size: 1.8vw;
+}
+
+#guerradaprata img{
+    width: 42vw;
+    height: auto;
+    margin-right: 10px;
+}
+
+#Baraodemaua {
+    display: flex;
+    margin-bottom: 15vh;
+}
+
+#Baraodemaua p{
+    width: 60%;
+    display: flex;
+    text-align: justify;
+    margin:0 30px;
+    font-size: 1.8vw;
+}
+
+#Baraodemaua img{
+    width: 42vw;
+    height: 60vh;
+    margin-right: 10px;
+}
+
+.contato h2{
+    text-align: center;
+    background-color: #40382e;
+    color: #d9c5ad;
+    margin-bottom: 7vh;
+}
+
+.contato p{
+    margin-left: 25vw;
+    text-align: center;
+    background-color: #40382e;
+    color: #d9c5ad;
+    width: 50%;
+    height: 3vh;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-top: 10vh;
+    text-align: center;
+    background-color: #40382e;
+    color: #d9c5ad;
+}
